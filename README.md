@@ -173,7 +173,6 @@ seasonwatch-project/
 
 
 ## Contributors
-- 
 - **Team Members:** Cecily Wang-Munoz, Aditya Chopra, An Ngo (Sue), Brenda Kim
 
 ---
