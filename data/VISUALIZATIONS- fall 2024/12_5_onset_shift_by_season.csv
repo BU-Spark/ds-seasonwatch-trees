@@ -1,0 +1,121 @@
+Species,Season,Reference Onset Week (Avg),Post-2020 Onset Week (Avg),Onset Shift (Weeks)
+Indian Almond-Terminalia catappa,Winter,1.0,1.0,0.0
+Indian Almond-Terminalia catappa,Summer,10.0,10.0,0.0
+Indian Almond-Terminalia catappa,Monsoon,23.333333333333332,23.333333333333332,0.0
+Indian Almond-Terminalia catappa,Post-Monsoon,40.0,40.0,0.0
+Chandada-Macaranga peltata,Winter,1.0,1.0,0.0
+Chandada-Macaranga peltata,Summer,9.0,9.666666666666666,0.6666666666666661
+Chandada-Macaranga peltata,Monsoon,23.166666666666668,23.333333333333332,0.1666666666666643
+Chandada-Macaranga peltata,Post-Monsoon,40.0,41.0,1.0
+Mango (all varieties)-Mangifera indica,Winter,1.0,1.0,0.0
+Mango (all varieties)-Mangifera indica,Summer,9.0,9.666666666666666,0.6666666666666661
+Mango (all varieties)-Mangifera indica,Monsoon,23.0,23.0,0.0
+Mango (all varieties)-Mangifera indica,Post-Monsoon,40.0,40.0,0.0
+Rain tree-Albizia saman,Winter,1.5,1.0,-0.5
+Rain tree-Albizia saman,Summer,9.0,9.666666666666666,0.6666666666666661
+Rain tree-Albizia saman,Monsoon,23.166666666666668,23.0,-0.16666666666666785
+Rain tree-Albizia saman,Post-Monsoon,40.0,40.0,0.0
+Indian Laburnum-Cassia fistula,Winter,1.0,1.0,0.0
+Indian Laburnum-Cassia fistula,Summer,9.0,9.666666666666666,0.6666666666666661
+Indian Laburnum-Cassia fistula,Monsoon,23.0,23.0,0.0
+Indian Laburnum-Cassia fistula,Post-Monsoon,40.0,40.0,0.0
+Jackfruit-Artocarpus heterophyllus,Winter,1.0,1.0,0.0
+Jackfruit-Artocarpus heterophyllus,Summer,9.0,9.666666666666666,0.6666666666666661
+Jackfruit-Artocarpus heterophyllus,Monsoon,23.0,23.0,0.0
+Jackfruit-Artocarpus heterophyllus,Post-Monsoon,40.0,40.0,0.0
+Purple Bauhinia-Bauhinia purpurea,Winter,1.0,1.0,0.0
+Purple Bauhinia-Bauhinia purpurea,Summer,9.0,9.666666666666666,0.6666666666666661
+Purple Bauhinia-Bauhinia purpurea,Monsoon,23.0,23.0,0.0
+Purple Bauhinia-Bauhinia purpurea,Post-Monsoon,40.0,40.0,0.0
+Teak-Tectona grandis,Winter,1.0,1.0,0.0
+Teak-Tectona grandis,Summer,9.0,9.666666666666666,0.6666666666666661
+Teak-Tectona grandis,Monsoon,23.0,23.0,0.0
+Teak-Tectona grandis,Post-Monsoon,40.0,40.0,0.0
+Tamarind-Tamarindus indica,Winter,1.0,1.0,0.0
+Tamarind-Tamarindus indica,Summer,9.0,9.666666666666666,0.6666666666666661
+Tamarind-Tamarindus indica,Monsoon,23.0,23.0,0.0
+Tamarind-Tamarindus indica,Post-Monsoon,40.0,40.0,0.0
+Chiku Sapodilla-Manilkara zapota,Winter,2.0,1.0,-1.0
+Chiku Sapodilla-Manilkara zapota,Summer,9.0,9.666666666666666,0.6666666666666661
+Chiku Sapodilla-Manilkara zapota,Monsoon,23.333333333333332,23.0,-0.33333333333333215
+Chiku Sapodilla-Manilkara zapota,Post-Monsoon,40.0,40.0,0.0
+Amla-Phyllanthus emblica,Winter,1.0,1.0,0.0
+Amla-Phyllanthus emblica,Summer,9.0,9.666666666666666,0.6666666666666661
+Amla-Phyllanthus emblica,Monsoon,23.0,23.0,0.0
+Amla-Phyllanthus emblica,Post-Monsoon,40.0,40.0,0.0
+Gulmohur-Delonix regia,Winter,1.0,1.0,0.0
+Gulmohur-Delonix regia,Summer,9.0,9.666666666666666,0.6666666666666661
+Gulmohur-Delonix regia,Monsoon,23.666666666666668,23.0,-0.6666666666666679
+Gulmohur-Delonix regia,Post-Monsoon,40.0,40.0,0.0
+Gamar-Gmelina arborea,Winter,1.0,1.0,0.0
+Gamar-Gmelina arborea,Summer,9.333333333333334,9.666666666666666,0.33333333333333215
+Gamar-Gmelina arborea,Monsoon,23.333333333333332,23.0,-0.33333333333333215
+Gamar-Gmelina arborea,Post-Monsoon,40.0,41.333333333333336,1.3333333333333357
+Devil's Tree-Alstonia scholaris,Winter,1.0,1.0,0.0
+Devil's Tree-Alstonia scholaris,Summer,9.0,9.666666666666666,0.6666666666666661
+Devil's Tree-Alstonia scholaris,Monsoon,23.166666666666668,23.333333333333332,0.1666666666666643
+Devil's Tree-Alstonia scholaris,Post-Monsoon,40.0,40.0,0.0
+Indian Coral-Erythrina indica,Winter,1.0,1.0,0.0
+Indian Coral-Erythrina indica,Summer,9.0,9.666666666666666,0.6666666666666661
+Indian Coral-Erythrina indica,Monsoon,23.333333333333332,23.0,-0.33333333333333215
+Indian Coral-Erythrina indica,Post-Monsoon,40.0,41.0,1.0
+Peepal-Ficus religiosa,Winter,1.0,1.0,0.0
+Peepal-Ficus religiosa,Summer,9.0,9.666666666666666,0.6666666666666661
+Peepal-Ficus religiosa,Monsoon,23.166666666666668,23.0,-0.16666666666666785
+Peepal-Ficus religiosa,Post-Monsoon,40.0,40.0,0.0
+Maulsari-Mimusops elengi,Winter,1.0,1.0,0.0
+Maulsari-Mimusops elengi,Summer,9.0,9.666666666666666,0.6666666666666661
+Maulsari-Mimusops elengi,Monsoon,23.166666666666668,23.333333333333332,0.1666666666666643
+Maulsari-Mimusops elengi,Post-Monsoon,40.0,41.0,1.0
+Pride of India-Lagerstroemia speciosa,Winter,1.5,1.0,-0.5
+Pride of India-Lagerstroemia speciosa,Summer,10.333333333333334,9.666666666666666,-0.6666666666666679
+Pride of India-Lagerstroemia speciosa,Monsoon,23.666666666666668,23.666666666666668,0.0
+Pride of India-Lagerstroemia speciosa,Post-Monsoon,40.0,41.333333333333336,1.3333333333333357
+True Ashoka-Saraca asoca,Winter,1.0,1.0,0.0
+True Ashoka-Saraca asoca,Summer,9.0,9.666666666666666,0.6666666666666661
+True Ashoka-Saraca asoca,Monsoon,23.166666666666668,23.0,-0.16666666666666785
+True Ashoka-Saraca asoca,Post-Monsoon,40.0,40.0,0.0
+Pongam Tree-Pongamia pinnata,Winter,1.0,1.0,0.0
+Pongam Tree-Pongamia pinnata,Summer,9.333333333333334,9.666666666666666,0.33333333333333215
+Pongam Tree-Pongamia pinnata,Monsoon,23.333333333333332,23.0,-0.33333333333333215
+Pongam Tree-Pongamia pinnata,Post-Monsoon,40.0,40.0,0.0
+Wood Apple-Aegle marmelos,Winter,1.0,1.0,0.0
+Wood Apple-Aegle marmelos,Summer,9.0,9.666666666666666,0.6666666666666661
+Wood Apple-Aegle marmelos,Monsoon,23.333333333333332,23.333333333333332,0.0
+Wood Apple-Aegle marmelos,Post-Monsoon,40.0,40.0,0.0
+Jamun-Syzygium cumini,Winter,1.0,1.0,0.0
+Jamun-Syzygium cumini,Summer,9.0,9.666666666666666,0.6666666666666661
+Jamun-Syzygium cumini,Monsoon,23.0,23.0,0.0
+Jamun-Syzygium cumini,Post-Monsoon,40.0,40.0,0.0
+Country Fig-Ficus racemosa,Winter,1.0,1.0,0.0
+Country Fig-Ficus racemosa,Summer,9.0,9.666666666666666,0.6666666666666661
+Country Fig-Ficus racemosa,Monsoon,23.333333333333332,23.0,-0.33333333333333215
+Country Fig-Ficus racemosa,Post-Monsoon,40.0,40.0,0.0
+Neem-Azadirachta indica,Winter,1.0,1.0,0.0
+Neem-Azadirachta indica,Summer,10.833333333333334,9.666666666666666,-1.1666666666666679
+Neem-Azadirachta indica,Monsoon,23.666666666666668,23.0,-0.6666666666666679
+Neem-Azadirachta indica,Post-Monsoon,40.833333333333336,40.0,-0.8333333333333357
+Quickstick-Gliricidia sepium,Winter,1.0,1.0,0.0
+Quickstick-Gliricidia sepium,Summer,9.0,9.666666666666666,0.6666666666666661
+Quickstick-Gliricidia sepium,Monsoon,23.5,23.0,-0.5
+Quickstick-Gliricidia sepium,Post-Monsoon,41.666666666666664,40.0,-1.6666666666666643
+Drumstick tree-Moringa oleifera,Winter,1.0,1.0,0.0
+Drumstick tree-Moringa oleifera,Summer,9.0,9.666666666666666,0.6666666666666661
+Drumstick tree-Moringa oleifera,Monsoon,23.333333333333332,23.0,-0.33333333333333215
+Drumstick tree-Moringa oleifera,Post-Monsoon,40.0,40.0,0.0
+Coconut palm-Cocos nucifera,Winter,1.0,1.0,0.0
+Coconut palm-Cocos nucifera,Summer,11.75,9.666666666666666,-2.083333333333334
+Coconut palm-Cocos nucifera,Monsoon,25.5,23.0,-2.5
+Coconut palm-Cocos nucifera,Post-Monsoon,40.0,40.0,0.0
+Guava tree-Psidium guajava,Winter,1.0,1.0,0.0
+Guava tree-Psidium guajava,Summer,11.75,9.666666666666666,-2.083333333333334
+Guava tree-Psidium guajava,Monsoon,24.5,23.0,-1.5
+Guava tree-Psidium guajava,Post-Monsoon,40.0,40.0,0.0
+Custard apple-Annona squamosa,Winter,1.0,1.0,0.0
+Custard apple-Annona squamosa,Summer,9.0,9.666666666666666,0.6666666666666661
+Custard apple-Annona squamosa,Monsoon,23.666666666666668,23.333333333333332,-0.3333333333333357
+Custard apple-Annona squamosa,Post-Monsoon,40.0,40.0,0.0
+Red Silk Cotton-Bombax ceiba,Winter,1.0,1.0,0.0
+Red Silk Cotton-Bombax ceiba,Summer,10.0,9.666666666666666,-0.3333333333333339
+Red Silk Cotton-Bombax ceiba,Monsoon,23.5,23.333333333333332,-0.16666666666666785
+Red Silk Cotton-Bombax ceiba,Post-Monsoon,40.166666666666664,40.0,-0.1666666666666643
