@@ -8,6 +8,7 @@ The SeasonWatch Project aims to analyze the phenological changes in tree species
 2. **Identify key patterns:** Focus on the timing of phenological stages (leaves, flowers, fruits) for the top 30 observed tree species.
 3. **Visualize shifts:** Create interactive and static visualizations to convey changes in onset weeks, geographic clustering, and seasonal variability.
 4. **Provide reusable tools:** Develop and share scripts, cleaned datasets, and workflows for future analysis.
+5. **Analyze urban vs. non-urban differences:** Investigate how urbanization affects tree phenology using population density and nighttime lights data.
 
 ---
 
@@ -16,9 +17,12 @@ The SeasonWatch Project aims to analyze the phenological changes in tree species
 - **Input Data:**
   - Citizen-submitted observations from SeasonWatch (2015–2023).
   - ~177 species with detailed phenological stage observations.
+  - Population density data from UN 2020 dataset.
+  - Nighttime lights data from NASA's Black Marble product (VNP46A2).
 - **Cleaned Data:**
   - Filtered dataset with accurate geocoding, standardized state names, and adjusted missing values.
   - Historical (pre-2020) and comparative (post-2020) datasets for reference.
+  - Enhanced dataset with urbanization variables for urban vs. non-urban analysis.
 
 ### 2. Visualizations
 - **Interactive Visualizations:** Created with Flourish Studio, including:
@@ -26,12 +30,14 @@ The SeasonWatch Project aims to analyze the phenological changes in tree species
   - Geographic clustering of phenological stages.
 - **Static Visuals:** Heatmaps, time-series plots, and summary tables saved to:
   `/data/VISUALIZATIONS-fall 2024/Kerala Visuals`
+- **Urban vs. Non-Urban Comparisons:** Seasonal plots comparing phenological patterns between urban and non-urban areas.
 
 ### 3. Statistical Analysis
 - Summary statistics, regression analysis, and survival modeling to answer base questions:
   - How are trees changing due to climate change?
   - What is the onset timing for flowering and fruiting in tropical species?
   - What is the probability of transitioning between seasonal states?
+  - How does urbanization affect tree phenology across different seasons?
 
 ### 4. Final Report
 - Comprehensive document with:
@@ -54,11 +60,15 @@ The SeasonWatch Project aims to analyze the phenological changes in tree species
      - `shapely (v2.0.1)`
      - `googlemaps`
      - `seaborn`
+     - `scipy`
+     - `h5py` (for processing nighttime lights data)
 2. **Geospatial Tools:**
    - Shapefiles available in `india_map` folder for geographic visualizations.
    - Google Maps API key for geocoding (optional).
 3. **Data Files:**
    - Cleaned datasets stored in the `/data` directory.
+   - Population density data in `/data/spring_2025_data/india-population-data.csv`.
+   - Nighttime lights data in `/data/spring_2025_data/nighttime-lights-raw/`.
 
 ### Installation
 1. Clone the repository:
@@ -104,6 +114,11 @@ The SeasonWatch Project aims to analyze the phenological changes in tree species
    python scripts/analysis.py
    ```
 
+5. **Urban vs. Non-Urban Analysis:**
+   Run the Jupyter notebooks in the `code/spring_2025_code/` directory:
+   - `urban_data_cleaning.ipynb`: Processes population density and nighttime lights data to create urbanization variables.
+   - `urban_vs_non_urban.ipynb`: Analyzes differences in tree phenology between urban and non-urban areas.
+
 ---
 
 ## Directory Structure
@@ -115,6 +130,14 @@ seasonwatch-project/
 │   ├── VISUALIZATIONS-fall 2024/
 │   │   ├── Kerala Visuals/
 │   │   └── ...
+│   ├── spring_2025_data/
+│   │   ├── india-population-data.csv
+│   │   ├── nighttime-lights-raw/
+│   │   └── cleaned_alldata_with_urbanization.csv
+├── code/
+│   ├── spring_2025_code/
+│   │   ├── urban_data_cleaning.ipynb
+│   │   └── urban_vs_non_urban.ipynb
 ├── scripts/
 │   ├── data_cleaning.py
 │   ├── geocoding.py
@@ -127,6 +150,28 @@ seasonwatch-project/
 ├── requirements.txt
 └── config.py
 ```
+
+---
+
+## Urbanization Variables
+The Spring 2025 code introduces new variables to analyze the impact of urbanization on tree phenology:
+
+1. **UN_2020_DS**: Population density (persons per square kilometer) from UN 2020 data.
+   - Used to classify areas as urban or non-urban based on official definitions.
+
+2. **is_urban**: Binary variable (0/1) indicating if population density ≥ 400 persons/km².
+   - Based on the Indian Ministry of Housing and Urban Affairs definition, which requires a density of at least 400 persons per square kilometer for urban classification.
+
+3. **pop_bin**: Population density categorized into 10 bins (0-9).
+   - Allows for more granular analysis across different population density levels.
+
+4. **radiance**: Nighttime light intensity from NASA's Black Marble product.
+   - Provides an alternative measure of urbanization based on human activity at night.
+
+5. **high_radiance**: Binary variable (0/1) indicating if the location is in the top 10% of nighttime light intensity.
+   - Used as the primary urban/non-urban classifier in the analysis.
+
+These variables enable comparison of phenological patterns between urban and non-urban environments, helping to identify how urbanization factors like the urban heat island effect, light pollution, and human activity may influence tree phenology.
 
 ---
 
@@ -148,6 +193,10 @@ seasonwatch-project/
    - Previous teams dropped too many rows during data cleaning.
    - **Solution:** Reviewed raw data meticulously and identified only 20,000 rows with missing values, preserving as much data as possible.
 
+5. **Spatial Joining Challenges:**
+   - Matching tree observations with population density and nighttime lights data required efficient spatial algorithms.
+   - **Solution:** Implemented KD-Tree based spatial joining for efficient nearest-neighbor searches.
+
 ---
 
 ## Next Steps for Future Teams
@@ -168,7 +217,12 @@ seasonwatch-project/
 5. **Machine Learning Models:**
    - Apply machine learning techniques to predict phenological stages based on climate and temporal data.
 
-6. **Documentation:**
+6. **Expand Urban Analysis:**
+   - Incorporate additional urbanization metrics such as land surface temperature, air quality, and green space coverage.
+   - Analyze how different levels of urbanization (not just binary urban/non-urban) affect tree phenology.
+   - Investigate species-specific responses to urbanization.
+
+7. **Documentation:**
    - Update README and inline comments regularly for new tools or methods added to the project.
 
 
@@ -178,4 +232,4 @@ seasonwatch-project/
 ---
 
 ## Acknowledgments
-This project uses data from SeasonWatch and insights from the SeasonWatch tree phenology handbook. Special thanks to BU SPARK for supporting the project.
+This project uses data from SeasonWatch and insights from the SeasonWatch tree phenology handbook. Special thanks to BU SPARK for supporting the project. Population density data from UN 2020 dataset and nighttime lights data from NASA's Black Marble product (VNP46A2).
