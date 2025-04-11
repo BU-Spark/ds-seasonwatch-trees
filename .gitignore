@@ -169,3 +169,6 @@ $RECYCLE.BIN/
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
+data/spring_2025_data/soil_moisture_data/
+*.idx
