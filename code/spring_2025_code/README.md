@@ -9,6 +9,13 @@ The objective was to detect shifts over time by comparing citizen-submitted tree
 
 ---
 
+## Project Description
+
+Currently, Season Watch relies on a reference database to flag potential errors in data submitted by citizen observers. However, as climate change accelerates, trees are experiencing seasonal transitions—such as leafing, flowering, and fruiting—either earlier or later than historically expected. This means that deviations in citizen-reported observations may reflect real ecological changes rather than inaccuracies.
+Our objective is to evaluate and quantify these shifts by systematically comparing citizen-submitted phenological data with the reference database. By identifying consistent patterns of change over time, we aim to detect long-term trends and recommend updates to the reference dataset, enhancing its relevance and reliability under evolving climate conditions.
+This project focuses on evaluating and understanding the changes in seasonal patterns of trees using citizen-contributed phenology data. The objective is to detect genuine shifts in timing (e.g., earlier flowering or delayed fruiting) caused by climatic and environmental changes rather than dismissing such deviations as errors.
+The four chosen environmental factors are: precipitation, temperature, urbanization, and soil moisture. The project was aimed to find patterns and correlations on tree phenology caused by these four environmental factors on exisitng tree record and to be able to predict future phenological trends./
+
 ## Repository Structure
 
 ```
