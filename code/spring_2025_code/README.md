@@ -27,7 +27,9 @@ The four chosen environmental factors are: precipitation, temperature, urbanizat
 
 ## Proposed Solution
 
+The Season Watch project, part of the Spring 2025 semester work, systematically analyzes recent citizen-submitted tree phenology data alongside environmental variables to detect significant shifts in seasonal behaviors such as leafing, flowering, and fruiting. The analysis integrates temperature, precipitation, soil moisture, and urbanization metrics, with particular focus on population density data and nighttime light radiance as indicators of urbanization intensity. Phenological onset times are statistically evaluated to quantify changes over time and assess geographic patterns, including clustering and synchronization across regions. By correlating observed phenological shifts with environmental drivers, the project identifies how urbanization and climate variability influence tree behavior. Building on Fall 2024 code, this data-driven approach provides a deeper understanding of spatial and temporal phenology patterns, supports improved interpretation of citizen science observations, and offers insights into the broader ecological impacts of environmental change.
 
+---
 
 ## Repository Structure
 
@@ -51,7 +53,7 @@ spring_2025_code/
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/BU-Spark/ds-seasonwatch-trees.git
    cd spring_2025_code
    ```
 
