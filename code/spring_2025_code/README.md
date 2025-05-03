@@ -16,6 +16,19 @@ Our objective is to evaluate and quantify these shifts by systematically compari
 This project focuses on evaluating and understanding the changes in seasonal patterns of trees using citizen-contributed phenology data. The objective is to detect genuine shifts in timing (e.g., earlier flowering or delayed fruiting) caused by climatic and environmental changes rather than dismissing such deviations as errors.
 The four chosen environmental factors are: precipitation, temperature, urbanization, and soil moisture. The project was aimed to find patterns and correlations on tree phenology caused by these four environmental factors on exisitng tree record and to be able to predict future phenological trends.
 
+## Project Checklist
+- Review Fall 2024 group’s conclusions on seasonal tree changes and geographic clustering; evaluate analytical methods and expand insights where necessary.  
+- Clean and document all datasets, including citizen-submitted and reference data; separate regular and casual observations and handle missing or inconsistent values.  
+- Analyze onset timing for flowering and fruiting across top species from 2014 to 2024; incorporate urbanization trends and assess their influence on phenological patterns.  
+- Apply spatial clustering techniques (e.g., DBSCAN) to assess synchronization of tree behavior by geographic proximity; integrate temperature, precipitation, and soil moisture data. 
+- Propose 2–3 new research questions based on data patterns or gaps; confirm questions with the client before beginning in-depth analysis.   
+- Create visualizations such as time-series plots with error bars and clustering maps to communicate spatial and temporal trends effectively.  
+- Assemble final deliverables including cleaned datasets, analysis code, comprehensive report, documentation of blockers and data limitations, and recommendations for future integration of environmental variables into reference models.
+
+## Proposed Solution
+
+
+
 ## Repository Structure
 
 ```
@@ -87,6 +100,12 @@ spring_2025_code/
 - **Reference Database Update**: Use model outputs to create updated seasonal calendars for citizen science validation.
 - **Interactive Visualization Dashboard**: Deploy a Looker Studio, Streamlit, or PowerBI dashboard allowing dynamic filtering by species, location, and year.
 - **Multivariate Environmental Modeling**: Analyze how temperature, soil moisture, and precipitation interact together rather than separately.
+
+---
+
+## Contributors
+
+Taimur Ahmad, Henry Price, Ze Song, Garrick Zhang
 
 ---
 
